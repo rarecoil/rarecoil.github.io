@@ -1,0 +1,89 @@
+body {
+  background-color: #202020;
+  max-width: 600px;
+  margin: 0 auto;
+  font-display: fallback;
+  font-family: 'Cairo', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #fafafa;
+}
+body strong {
+  color: #fff;
+  font-weight: bold;
+}
+body a {
+  transition: all 0.5s;
+}
+body a:link {
+  color: #0066ff;
+  text-decoration: none;
+}
+body a:visited {
+  color: #006699;
+  text-decoration: underline;
+}
+body a:hover,
+body a:active {
+  color: #22aaff;
+  text-decoration: underline;
+  text-shadow: 0 0 3px rgba(254, 254, 254, 0.3);
+}
+header,
+main,
+footer {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+header {
+  margin-top: 5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid #444;
+}
+header h1 {
+  display: inline-block;
+  font-size: 2.2rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+}
+header span.subtitle {
+  display: inline-block;
+  font-size: 1.0rem;
+  padding-left: 1.0rem;
+  color: #666;
+}
+main p {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+footer {
+  margin-top: 3rem;
+}
+footer h3 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+}
+footer ul {
+  margin: 1rem 0;
+  column-count: 3;
+}
+footer ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+footer p#copyright {
+  margin: 2rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #999;
+}
+/* phone */
+@media all and (max-width: 575px) {
+  footer ul {
+    column-count: 2;
+  }
+}
